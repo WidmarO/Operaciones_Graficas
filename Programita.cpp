@@ -41,9 +41,9 @@ void ActCentros(){
 		centro2.second += b[i].second;
 	}
 	centro1.first = rounder(centro1.first/pts);
-	centro1.second = rounder(centro1.second/pts);;
-	centro2.first = rounder(centro2.first/pts);;
-	centro2.second = rounder(centro2.second/pts);;
+	centro1.second = rounder(centro1.second/pts);
+	centro2.first = rounder(centro2.first/pts);
+	centro2.second = rounder(centro2.second/pts);
 	cout << "centro: "<< centro1.first << "  " << centro1.second << endl;
 }	
 /* #region Traslacion */
